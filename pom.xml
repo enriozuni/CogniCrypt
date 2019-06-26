@@ -14,11 +14,6 @@
 
   <repositories>
     <repository>
-      <id>eclipse-photon</id>
-      <layout>p2</layout>
-      <url>http://download.eclipse.org/releases/photon</url>
-    </repository>
-    <repository>
       <id>cryptsl</id>
       <url>https://it.crossing.tu-darmstadt.de/cognicrypt/</url>
       <layout>p2</layout>
@@ -108,6 +103,7 @@
 	<module>plugins/de.cognicrypt.integrator.task/</module>
 	<module>plugins/de.cognicrypt.integrator.primitive/</module>
 	<module>plugins/de.cognicrypt.codegenerator.tests/</module>
+	<module>plugins/de.cognicrypt.target/</module>
 	<module>features/de.cognicrypt.core.feature/</module>
     <module>features/de.cognicrypt.codegenerator.feature/</module>
     <module>features/de.cognicrypt.cryslhandler.feature/</module>
