@@ -112,43 +112,6 @@
 		</plugins>
 	</build>
 
-	<<<<<<< HEAD
-	<plugin>
-		<groupId>org.eclipse.tycho</groupId>
-		<artifactId>target-platform-configuration</artifactId>
-		<version>${tycho-version}</version>
-		<configuration>
-			<environments>
-				<environment>
-					<os>linux</os>
-					<ws>gtk</ws>
-					<arch>x86</arch>
-				</environment>
-				<environment>
-					<os>linux</os>
-					<ws>gtk</ws>
-					<arch>x86_64</arch>
-				</environment>
-				<environment>
-					<os>win32</os>
-					<ws>win32</ws>
-					<arch>x86</arch>
-				</environment>
-				<environment>
-					<os>win32</os>
-					<ws>win32</ws>
-					<arch>x86_64</arch>
-				</environment>
-				<environment>
-					<os>macosx</os>
-					<ws>cocoa</ws>
-					<arch>x86_64</arch>
-				</environment>
-			</environments>
-		</configuration>
-	</plugin>
-</plugins>
-</build>
 
 	<modules>
 		<module>plugins/de.cognicrypt.core/</module>
@@ -165,20 +128,4 @@
 		<module>features/de.cognicrypt.staticanalyzer.feature/</module>
 		<module>repository/</module>
 	</modules>
-	=======
-	<modules>
-		<module>plugins/de.cognicrypt.core/</module>
-		<module>plugins/de.cognicrypt.codegenerator/</module>
-		<module>plugins/de.cognicrypt.crysl.handler/</module>
-		<module>plugins/de.cognicrypt.staticanalyzer/</module>
-		<module>plugins/de.cognicrypt.integrator.task/</module>
-		<module>plugins/de.cognicrypt.integrator.primitive/</module>
-		<module>plugins/de.cognicrypt.codegenerator.tests/</module>
-		<module>features/de.cognicrypt.core.feature/</module>
-		<module>features/de.cognicrypt.codegenerator.feature/</module>
-		<module>features/de.cognicrypt.cryslhandler.feature/</module>
-		<module>features/de.cognicrypt.staticanalyzer.feature/</module>
-		<module>repository/</module>
-	</modules>
-	>>>>>>> refs/heads/develop
 </project>

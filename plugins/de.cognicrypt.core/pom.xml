@@ -5,7 +5,6 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>de.cognicrypt.core</artifactId>
-	<packaging>eclipse-plugin</packaging>
 	<parent>
 		<groupId>de.cognicrypt</groupId>
 		<artifactId>de.cognicrypt.parent</artifactId>
