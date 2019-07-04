@@ -107,6 +107,13 @@
 							<arch>x86_64</arch>
 						</environment>
 					</environments>
+					<target>
+						<artifact>
+							<groupId>de.cognicrypt</groupId>
+							<artifactId>de.cognicrypt.target</artifactId>
+							<version>${project.version}</version>
+						</artifact>
+					</target>
 				</configuration>
 			</plugin>
 		</plugins>
