@@ -29,22 +29,15 @@
 	<classpathentry exported="true" kind="lib" path="lib/CryptoAnalysis.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/dexlib2.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/de.darmstadt.tu.crossing.CryptSL.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/error_prone_annotations.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/functionaljava.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/gson.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/guava.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/hamcrest-core.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/heros.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/httpclient.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/httpcore.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/idealPDS.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/ini4j.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/j2objc-annotations.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/jasmin.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/java_cup.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/json-simple.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/jsr305.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/junit.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/log4j.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/log4j-api.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/log4j-core.jar"/>
@@ -54,13 +47,11 @@
 	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.xtext.common.types.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.xtext.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.xtext.util.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/PathExpression.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/polyglot.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/slf4j-api.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/slf4j-simple.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/soot-j9.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/synchronizedPDS.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/testCore.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/WPDS.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/xmlpull.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/zip4j.jar"/>
