@@ -3,3 +3,6 @@ target/
 .metadata/
 .recommenders/
 *.cryptslbin
+*.project
+*.classpath
+*.prefs
