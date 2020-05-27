@@ -16,6 +16,8 @@ import javax.xml.bind.DatatypeConverter;
 
 import de.cognicrypt.codegenerator.crysl.CrySLCodeGenerator;
 
+import de.upb.cognicrypt.predicateensurer.Ensurer;
+
 public class PasswordHasher {
 
 	public static java.lang.String createPWHash(char[] pwd) throws GeneralSecurityException {
@@ -35,6 +37,7 @@ public class PasswordHasher {
 		byte[] salt = fromBase64(parts[0]);
 		byte[] res = null;
 		int keysize = 160;
+		Ensurer ensRan = new Ensurer(salt, "randomized");
 
 		CrySLCodeGenerator.getInstance().includeClass("java.security.PBEKeySpec").addParameter(pwd, "password").addParameter(salt, "salt").addParameter(keysize, "keylength")
 			.includeClass("javax.crypto.SecretKeyFactory").includeClass("java.security.SecretKey").addReturnObject(res).generate();
