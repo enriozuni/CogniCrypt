@@ -156,6 +156,11 @@ public class CrySLBasedCodeGenerator extends CodeGenerator {
 		tmplUsage.setName(Constants.NameOfTemporaryMethod);
 
 		RuleDependencyTree rdt = new RuleDependencyTree(CrySLUtils.readCrySLRules());
+		
+		// Add additional resources like jar files
+		if (!addAdditionalFiles(pathToFolderWithAdditionalResources)) {
+			return false;
+		}
 
 		for (GeneratorMethod method : ruleClass.getMethods()) {
 			tmpUsagePars.put(method.getName(), new ArrayList<String>());
