@@ -345,13 +345,21 @@ public class TestUtils {
 	 * This method counts methods in ICompilationUnits
 	 * 
 	 * @param unit
-	 * @return
+	 * @return The number of methods in a given unit
 	 * @throws JavaModelException
 	 */
 	public static int countMethods(ICompilationUnit unit) throws JavaModelException {
 		return unit.getAllTypes()[0].getMethods().length;
 	}
 
+	/**
+	 * This method counts statements in a given method
+	 * 
+	 * @param unit
+	 * @param method
+	 * @return The number of statements in a given method
+	 * @throws JavaModelException
+	 */
 	public static int countStatements(ICompilationUnit unit, String method) throws JavaModelException {
 		for (IMethod meth : unit.getAllTypes()[0].getMethods()) {
 			if (method.equals(meth.getElementName())) {

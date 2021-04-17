@@ -322,7 +322,7 @@ public class CrySLCodeGenTest {
 	}
 
 	@Test
-	public void generatedigSign() {
+	public void generateDigSign() {
 		String template = "digitalsignatures";
 		try {
 			IJavaProject testJavaProject = TestUtils.createJavaProject("TestProject_DigSign");
@@ -343,7 +343,7 @@ public class CrySLCodeGenTest {
 			assertEquals(3, TestUtils.countMethods(encClassUnit));
 			assertEquals(5, TestUtils.countStatements(encClassUnit, "getKey"));
 			assertEquals(8, TestUtils.countStatements(encClassUnit, "sign"));
-			// assertEquals(14, TestUtils.countStatements(encClassUnit, "vfy"));
+//			assertEquals(8, TestUtils.countStatements(encClassUnit, "vfy"));
 		}
 		catch (JavaModelException e) {
 			Activator.getDefault().logError(e, "Could not create Java class in test project.");
