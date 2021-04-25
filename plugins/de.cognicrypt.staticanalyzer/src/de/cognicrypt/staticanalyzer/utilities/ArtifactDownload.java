@@ -33,6 +33,16 @@ public class ArtifactDownload {
 		locator.addService(RepositoryConnectorFactory.class, BasicRepositoryConnectorFactory.class);
 		locator.addService(TransporterFactory.class, FileTransporterFactory.class);
 		locator.addService(TransporterFactory.class, HttpTransporterFactory.class);
+		
+		locator.setErrorHandler(new DefaultServiceLocator.ErrorHandler()
+	    {
+	        @Override
+	        public void serviceCreationFailed(Class<?> type, Class<?> impl, Throwable exception)
+	        {
+	            exception.printStackTrace();
+	        }
+	    });
+		
 		return locator.getService(RepositorySystem.class);
 
 	}
