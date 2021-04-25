@@ -289,7 +289,7 @@ public class CrySLCodeGenTest {
 
 	@Test
 	public void generateSecPwd() {
-		String template = "securePassword";
+		String template = "securepassword";
 		try {
 			IJavaProject testJavaProject = TestUtils.createJavaProject("TestProject_SecPwd");
 			IResource targetFile = TestUtils.generateJavaClassInJavaProject(testJavaProject, "testPackage", "Test");
